@@ -26,7 +26,7 @@ export const Todo_Comp=()=>{
     <div>
       <div className="tasks">
         <input onChange={inp_tsk_fnc}></input>
-        <button onClick={add_task_func}>Add Task</button>
+        <button className="add-button" onClick={add_task_func}>Add Task</button>
       </div>
 
       <div className="list">
