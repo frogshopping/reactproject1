@@ -1,13 +1,13 @@
 
 import './App.css';
 import { Todo_Comp } from './components/todoComponents/todo';
-import {CalcComponent} from './components/calculatorComponents'
+import {ButtonsComponent} from './components/calculatorComponents/ButtonsComponent'
 
 function App() {
   return (
     <div className="App">
       <Todo_Comp />
-      <CalcComponent/>
+      <ButtonsComponent/>
     </div>
   );
 }
