@@ -2,12 +2,11 @@
   text-align: center;
 }
 body {
-  background-color: rgb(209, 140, 105);
+  background-color: rgb(63, 62, 61);
 }
-.add-button{
+.add-button {
   background-color: aqua;
-  border-radius:6px;
-  
+  border-radius: 6px;
 }
 
 .tasks {
@@ -15,12 +14,44 @@ body {
   justify-content: center;
   gap: 5px;
 }
-input{
+input {
   font-size: 20px;
 }
 h1 {
   font-size: 20px;
 }
 
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center;
+  gap: 5px;
+  height: 500px;
+}
+
+.buttons {
+  
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(6,1fr);
+  gap: 1px;
+
+}
+
+button{
+  background-color: aqua;
+  border-radius: 5px;
+
+}
+
+button:hover{
+  background-color: rgb(131, 92, 41);
+}
+
+.calc-input{
+  grid-column: span 4;
+  height: 40px;
+}
 
 
